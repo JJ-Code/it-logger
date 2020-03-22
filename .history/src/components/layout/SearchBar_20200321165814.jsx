@@ -38,4 +38,5 @@ SearchBar.propTypes = {
   searchLogs: PropTypes.func.isRequired
 };
 
-export default connect(null, { searchLogs })(SearchBar);
+export default connect(null, { searchLogs }
+)(SearchBar);
